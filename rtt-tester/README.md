@@ -36,6 +36,11 @@ Makefiles are in `cmd/reflector` and `cmd-sender`.
 
 You can control the reflector using command line parameters or the environment.
 
+### Reflector example
+
+```shell
+./stamp-reflector
+```
 
 ```
 Usage of stampreflector:
@@ -46,7 +51,7 @@ Usage of stampreflector:
 ### Sender example
 
 ```shell
-./stamp-sender -w '50-100' -p '100-200' -d 0
+./stamp-sender -w '50-100' -p '100-200' -d 0 -r 10.0.1.1:9996
 ```
 
 *Parameters*
